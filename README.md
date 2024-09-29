@@ -2,6 +2,9 @@
 
 Welcome to the AI-Powered PokéDex Assistant, an advanced, interactive, and intelligent chatbot designed to help Pokémon Trainers on their journey to becoming Pokémon Masters. Using Google's Gemini models and other AI tools, this Assistant can engage in natural conversations, recognize Pokémon images, process research PDFs, and even extract battle strategies from web links. Trainers can rely on this PokéDex to provide real-time insights, strategies, and personalized advice for competitive Pokémon battles.
 
+## Demo video link
+- https://drive.google.com/file/d/16dlEI3091-cot8n5CZ9rGBCDuiPKIPMy/view?usp=sharing
+
 ## Tasks Completed
 
 1. Task 1: Use Google's Gemini models (free tier) to create the PokéDex Assistant (60 Points) 

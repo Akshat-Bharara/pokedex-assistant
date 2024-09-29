@@ -137,7 +137,7 @@ with tab3:
         embed_and_store(text)
         st.success("Your document has been processed and stored successfully!")
 
-    query = st.text_input("Ask about your expertise (e.g., 'What is the best battle strategy for Charizard?')")
+    query = st.text_input("Ask about your expertise")
     if query:
         results = faiss_store.similarity_search(query, k=2)  
         if results:
@@ -159,7 +159,7 @@ with tab4:
             embed_web_content(web_content)
             st.success("The content has been successfully embedded into the PokéDex Assistant!")
         
-    web_query = st.text_input("Ask about the battle strategy you added (e.g., 'How to train a Bulbasaur for competitive battles?')")
+    web_query = st.text_input("Ask about the battle strategy you added")
     
     if web_query:
         web_results = faiss_store.similarity_search(web_query, k=2)  

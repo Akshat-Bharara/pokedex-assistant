@@ -1,0 +1,12 @@
+streamlit==1.26.0
+google-generativeai
+Pillow==9.2.0
+PyPDF2==3.0.1
+langchain
+langchain-google-genai
+langchain-core
+faiss-cpu
+requests==2.31.0
+beautifulsoup4==4.12.2
+numpy==1.23.5
+python-dotenv==1.0.0
